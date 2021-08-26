@@ -142,7 +142,7 @@ div.client__welcome {
 div.form__close {
     width: 60px;
     height: 60px;
-    background-image: url(logo.svg);
+    background-image: url();
     background-size: 20px auto;
     background-repeat: no-repeat;
     background-position: 50%;
