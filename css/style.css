@@ -82,6 +82,7 @@ textarea {
     resize: none;
     padding-top: 16px;
     padding-bottom: 16px;
+    font-size: 14px;
 }
 
 select {
