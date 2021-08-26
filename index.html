@@ -1,0 +1,100 @@
+<html>
+    <head>
+        <title>Show Proposals | Internet Public Radio</title>
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+
+    <body>
+        <div class="proposal__project">
+            <div class="proposal__project__main">
+                <div class="sep__section__x1">
+                    <div class="proposal__welcome">
+                        <p>Radio show proposals</p>
+                    </div>
+
+                    <div class="form__close"></div>
+                </div>
+
+                <div class="proposal__form">
+                    <form name="proposals" class="form__v1">
+                            <div class="inputs__select">
+                                <label>Show title (Required)</label>
+                                <input type="text" name="Show title" placeholder="Name of your show">
+                            </div>
+
+                            <div class="inputs__select">
+                                <label>Show description (Required)</label>
+                                <textarea name="Show description" placeholder="Descripbe your show"></textarea>
+                            </div>
+
+                            <div class="inputs__select">
+                                <label>What time would you like to do a show?</label>
+                                <select id="time" name="Time">
+                                    <option disabled selected>Select option</option>
+                                    <option value="60 minutes">60 minutes</option>
+                                    <option value="120 minutes">120 minutes</option>
+                                </select>
+                            </div>
+
+                            <div class="inputs__select">
+                                <label>Frequency</label>
+                                <select id="frequency" name="Frequency">
+                                    <option disabled selected>Select option</option>
+                                    <option value="60 minutes">Monthly</option>
+                                    <option value="120 minutes">Bi-Monthly</option>
+                                    <option value="120 minutes">Fortnightly</option>
+                                </select>
+                            </div>
+
+                            <div class="inputs__select">
+                                <label>Preferred start time</label>
+                                <input type="text" name="Start time" placeholder="e.g. 14:00 pm UK Time">
+                            </div>
+
+                            <div class="inputs__select">
+                                <label>Format</label>
+                                <select id="format" name="Format">
+                                    <option disabled selected>Select option</option>
+                                    <option value="60 minutes">Hosted</option>
+                                    <option value="120 minutes">Music</option>
+                                    <option value="120 minutes">Field recordings</option>
+                                </select>
+                            </div>
+
+                            <div class="inputs__select">
+                                <label>Demo audio* (Soundcloud, Mixcloud, Dropbox, Google Drive)</label>
+                                <input type="text" name="Demo audio" placeholder="Link 1*">
+                                <input type="text" name="Demo audio 2" placeholder="Link 2">
+                            </div>
+
+                            <div class="inputs__select">
+                                <label>Social links</label>
+                                <input type="text" name="Social link" placeholder="Separate by comma">
+                            </div>
+
+                            <div class="inputs__select">
+                                <label>Your name (Required)</label>
+                                <input type="text" name="Name" placeholder="Full Name">
+                            </div>
+
+                            <div class="inputs__select">
+                                <label>Email (Required)</label>
+                                <input type="email" name="Email" placeholder="artist@mail.com">
+                            </div>
+
+                            <div class="inputs__select">
+                                <label>City (Required)</label>
+                                <input type="text" name="City" placeholder="Where do you live?">
+                            </div>
+
+                            <div class="inputs__select inputs_select__btn">
+                                <button type="submit">Send</button>
+                            </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+
+        <script src="functions.js"></script>
+    </body>
+</html>
