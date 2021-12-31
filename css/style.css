@@ -26,6 +26,19 @@ header {
     height: 64px;
 }
 
+div.i_proposal {
+    display: inline-block;
+    margin-bottom: 20px;
+}
+
+div.i_proposal::before {
+    display: inline-block;
+    content: url("data:image/svg+xml;charset=UTF-8, <svg xmlns='http://www.w3.org/2000/svg' version='1.1' height='100' width='100'><circle cx='12' cy='12' r='10' stroke='white' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'/><path d='M12 6.01953V6' stroke='white' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'/><path d='M12 10V18' stroke='white' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'/></svg>");
+    background-size: 28px 28px;
+    height: 28px;
+    width: 28px;
+}
+
 div.proposal__project {
     max-width: 800px;
     width: 90%;
